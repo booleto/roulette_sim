@@ -7,7 +7,7 @@ BET = ("odd", "even", "black", "red", "1-18", "19-36", "1-12", "13-24", "25-36",
 def main():
     MONEY = 100000
     BET_PER_ROUND = 100
-    ROULETTE_ROUNDS = 100
+    ROULETTE_ROUNDS = 10000
     graphy = np.array([])
     graphx = np.arange(1, ROULETTE_ROUNDS + 1)
 
@@ -121,4 +121,4 @@ def play(bet):
 
 
 main()
-#strat()
+strat()
